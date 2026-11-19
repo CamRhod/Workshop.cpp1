@@ -1,0 +1,1 @@
+Voici tous les exercices que j'ai pu réaliser durant le work shop.

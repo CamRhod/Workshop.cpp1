@@ -2,40 +2,8 @@
 #include <vector>
 #include <sil/sil.hpp>
 
-// void mirroir()
-// {
-//     sil::Image image{"C:\\Users\\User\\Documents\\Code\\CPP TD\\Workshop\\images\\logo.png"};
-//     int a=image.width();
-//     int b=image.height();
-//     sil::Image image2{a, b};
-//     for (int x{0}; x < image.width(); ++x)
-//     {
-//         for (int y{0}; y < image.height(); ++y)
-//         {
-//             image2.pixel(image.width()-1-x, y)=image.pixel(x, y);
-//         }
-//     }
-//     image2.save("output/output.png");
-// }
-
-// void flip()
-// {
-//     sil::Image image{"C:\\Users\\User\\Documents\\Code\\CPP TD\\Workshop\\images\\logo.png"};
-//     int a=image.width();
-//     int b=image.height();
-//     sil::Image image2{a, b};
-//     for (int x{0}; x < image.width(); ++x)
-//     {
-//         for (int y{0}; y < image.height(); ++y)
-//         {
-//             image2.pixel(image2.width()-1-x, y)=image.pixel(x, image.height()-1-y);
-//         }
-//     }
-//     image2.save("output/output.png");
-// }
-
 void paste_image(sil::Image const& source, sil::Image& destination, int k, int h, int n, bool flip_x, bool flip_y){
-    for (int x{destination.width()*k/n}; x < (destination.width()*(k+1)/n)-1; x++)
+    for (int x{destination.width()*k/n}; x < (destination.width()*(k+1)/n); x++)
     {
         for (int y{destination.height()*h/n}; y < destination.height()*(h+1)/n; y++)
         {
