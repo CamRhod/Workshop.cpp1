@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <vector>
 #include <sil/sil.hpp>
 
@@ -35,7 +35,7 @@
 // }
 
 void paste_image(sil::Image const& source, sil::Image& destination, int k, int h, int n, bool flip_x, bool flip_y){
-    for (int x{destination.width()*k/n}; x < destination.width()*(k+1)/n; x++)
+    for (int x{destination.width()*k/n}; x < (destination.width()*(k+1)/n)-1; x++)
     {
         for (int y{destination.height()*h/n}; y < destination.height()*(h+1)/n; y++)
         {

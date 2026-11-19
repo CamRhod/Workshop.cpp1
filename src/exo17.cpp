@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <vector>
 #include <sil/sil.hpp>
 #include "random.hpp"
@@ -31,4 +31,4 @@ int main()
         }
     }
     image.save("output/output.png");
-}
+}*/
