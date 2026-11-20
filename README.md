@@ -3,7 +3,8 @@
 Le lien vers le [repo Git](https://github.com/CamRhod/Workshop.cpp1.git)
 
 **Ex1: Que du Vert**
-Au départ j’ai utilisé un produit en croix pour travailler avec le RGB codé sur 8bits mais ça n’a pas fonctionné.
+
+Au départ j’ai utilisé un produit en croix pour travailler avec le RGB codé sur 8bits (Noté de 0 à 255) mais ça n’a pas fonctionné.
 
 ![Exo01](output/exo01.png)
 
@@ -67,7 +68,7 @@ J'ai par la suite réuissi à régler le problème.
 
 **Ex12: Cercle**
 
-Dans un premier temps, j'avais fait l'exercice en créant deux disque, un blanc et un autre noir plus petit. Par la suite j'ai optimisé le programme.
+Dans un premier temps, j'avais fait l'exercice en créant deux disques, un blanc et un autre noir plus petit. Par la suite j'ai optimisé le programme.
 
 ![Exo12](output/exo12.png)
 
