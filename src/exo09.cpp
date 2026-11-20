@@ -12,20 +12,22 @@ int main()
     {
         for (int y{0}; y < image.height(); ++y)
         {
-            if (x-15>a)
+            if (x-15>0)
             {
-                image2.pixel(x-15, y).r=image.pixel(x, y).r;
+                image2.pixel(x-15, y).b=image.pixel(x, y).b;
             }
             else
             {
+                image2.pixel(x, y).b=image.pixel(x+15, y).b;
             }
                 image2.pixel(x, y).g=image.pixel(x, y).g;
             if (x+15<a)
             {
-                image2.pixel(x+15, y).b=image.pixel(x, y).b;
+                image2.pixel(x+15, y).r=image.pixel(x, y).r;
             }
             else
             {  
+                image2.pixel(x, y).r=image.pixel(x-15, y).r;
             }
 
         }

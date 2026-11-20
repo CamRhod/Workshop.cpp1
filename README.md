@@ -47,6 +47,9 @@ Au départ j'ai eu le résultat ci-dessous.
 
 **Ex9:RGB Split**
 L'effet fonctionne mais les couleurs sont un peu mangéessur la largeur.
+
+![Exo09](output/exo09fail.png)
+
 ![Exo09](output/exo09.png)
 
 **Ex10: Luminosité**
