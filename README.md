@@ -100,7 +100,7 @@ J'ai mis du temps a comprendre comment fonctionne "image.pixel()" et "glm::vec3"
 
 **Mon Effet: Pixelisé**
 
-L'année dernère on avait fait un programme python qui pixelisait les images. Donc j'ai voulu reproduire ce programme en cpp. Le programme que j'ai écrit ne s'applique qu'au photo de la même dimension que celle utilisée.
+L'année dernère on avait fait un programme python qui pixelisait les images. Donc j'ai voulu reproduire ce programme en cpp. Le programme que j'ai écrit ne s'applique qu'aux photos de la même dimension que celle utilisée.
 
 ![Image pixelisée](output/pixelisée.png)
 ![Image pixelisée](output/pixelisée2.png)
