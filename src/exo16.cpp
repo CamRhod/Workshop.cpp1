@@ -50,7 +50,7 @@ int main()
     image2.save("output/output.png");
 }
 
-/*int main()
+int main()
 {
     sil::Image image{"C:\\Users\\User\\Documents\\Code\\CPP TD\\Workshop\\images\\logo.png"};
     int n;
