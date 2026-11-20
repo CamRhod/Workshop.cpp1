@@ -43,12 +43,16 @@ Un autre type de mirroir que j'ai obtenu durant l'avancé du programme.
 ![Exo08](output/exo08.png)
 
 Au départ j'ai eu le résultat ci-dessous.
+
 ![Image raté de l'exo](output/autre01.png)
 
 **Ex9:RGB Split**
-L'effet fonctionne mais les couleurs sont un peu mangéessur la largeur.
+
+L'effet fonctionne mais les couleurs sont un peu mangées sur la largeur.
 
 ![Exo09](output/exo09fail.png)
+
+J'ai par la suite réuissi à réglé le problème.
 
 ![Exo09](output/exo09.png)
 
