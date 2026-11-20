@@ -52,7 +52,7 @@ L'effet fonctionne mais les couleurs sont un peu mangées sur la largeur.
 
 ![Exo09](output/exo09fail.png)
 
-J'ai par la suite réuissi à réglé le problème.
+J'ai par la suite réuissi à régler le problème.
 
 ![Exo09](output/exo09.png)
 
@@ -67,7 +67,7 @@ J'ai par la suite réuissi à réglé le problème.
 
 **Ex12: Cercle**
 
-Dans un premier temps, j'avais fait l'exercice en créant deux disuqe un blanc et un autre noir plus petit. PAr la suite j'ai optimisé le programme.
+Dans un premier temps, j'avais fait l'exercice en créant deux disque, un blanc et un autre noir plus petit. Par la suite j'ai optimisé le programme.
 
 ![Exo12](output/exo12.png)
 
@@ -91,17 +91,16 @@ Beaucoup de difficulté, notamment dans l’utilisation de la trigonométrie dan
 
 **Ex17: Glitch**
 
-J'ai réussi a faire l'effet glitché mais le résultat est moins impressionnant, donc j'imagine qu'il y a une meilleure façon de faire.
 ![Exo17](output/exo17.png)
 
 **Ex18: Tri**
 
-J'ai mis du temps a comprendre comment fonctionne "image.pixel()" et "glm::vex3".
+J'ai mis du temps a comprendre comment fonctionne "image.pixel()" et "glm::vec3".
 ![Exo18](output/exo18.png)
 
 **Mon Effet: Pixelisé**
 
-L'année dernère on avait fait un programme python qui pixelisait les images. Donc j'ai voulu reproduire ce programme en cpp.
+L'année dernère on avait fait un programme python qui pixelisait les images. Donc j'ai voulu reproduire ce programme en cpp. Le programme que j'ai écrit ne s'applique qu'au photo de la même dimension que celle utilisée.
 
 ![Image pixelisée](output/pixelisée.png)
 ![Image pixelisée](output/pixelisée2.png)
