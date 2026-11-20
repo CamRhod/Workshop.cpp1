@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <vector>
 #include <sil/sil.hpp>
 #include "random.hpp"
@@ -17,4 +17,4 @@ int main()
     return luminance(color1) < luminance(color2); // Trie selon la luminosité des couleurs (NB : c'est à vous de coder la fonction `brightness`)
 });
     image.save("output/output.png");
-}
+}*/
