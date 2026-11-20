@@ -10,9 +10,15 @@ int main()
     {
         for (int y{0}; y < image.height(); ++y)
         {
+            
             image.pixel(x, y).r=std::sqrt(image.pixel(x, y).r);
             image.pixel(x, y).g=std::sqrt(image.pixel(x, y).g);
             image.pixel(x, y).b=std::sqrt(image.pixel(x, y).b);
+            
+            //image.pixel(x, y).r=std::pow(image.pixel(x, y).r, 2);
+            //image.pixel(x, y).g=std::pow(image.pixel(x, y).g, 2);
+            //image.pixel(x, y).b=std::pow(image.pixel(x, y).b, 2);
+            
         }
     }
     image.save("output/output.png");

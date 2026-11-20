@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <vector>
 #include <sil/sil.hpp>
 #include <cmath>
@@ -36,4 +36,4 @@ int main()
         }
     }
     image.save("output/output.png");
-}*/
+}
